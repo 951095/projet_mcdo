@@ -36,7 +36,6 @@ Le jeu de données utilisé dans ce projet est `ObesityDataSet_raw_and_data_sint
     git clone https://github.com/951095/projet_mcdo.git
     cd obesity-analysis
     ```
-:
 
 
 ## Dépendances
@@ -56,7 +55,7 @@ Exécutez le notebook Jupyter pour prétraiter les données et entraîner le mod
 jupyter notebook Obesity.ipynb
 ```
 
-### Visualisation
+## Visualisation
 
 Exécutez le notebook Jupyter pour générer divers graphiques :
 ```sh
