@@ -28,55 +28,42 @@ Le jeu de données utilisé dans ce projet est `ObesityDataSet_raw_and_data_sint
 - `MTRANS` : Mode de transport
 - `NObeyesdad` : Niveau d'obésité (variable cible)
 
-## Structure du Projet
-
-- `data/` : Contient le fichier du jeu de données.
-- `notebooks/` : Contient des notebooks Jupyter pour l'analyse des données, la visualisation et l'entraînement du modèle.
-- `src/` : Contient des scripts Python pour le prétraitement des données, l'encodage des caractéristiques et l'entraînement du modèle.
-- `models/` : Contient les modèles entraînés et les encodeurs.
-- `README.md` : Description du projet et instructions de configuration.
 
 ## Installation
 
 1. Clonez le dépôt :
     ```sh
-    git clone https://github.com/votreutilisateur/obesity-analysis.git
+    git clone https://github.com/951095/projet_mcdo.git
     cd obesity-analysis
     ```
+:
 
-2. Créez un environnement virtuel et activez-le :
-    ```sh
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
 
-3. Installez les paquets requis :
-    ```sh
-    pip install -r requirements.txt
-    ```
+## Dépendances
+
+Pour exécuter ce projet, vous aurez besoin d'installer les dépendances suivantes. Vous pouvez les installer en exécutant la commande suivante dans votre environnement virtuel :
+
+```sh
+pip install -r requirements.txt
+```
 
 ## Utilisation
 
 ### Prétraitement des Données et Entraînement du Modèle
 
-Exécutez le script Python pour prétraiter les données et entraîner le modèle :
+Exécutez le notebook Jupyter pour prétraiter les données et entraîner le modèle :
 ```sh
-python src/train_model.py
+jupyter notebook Obesity.ipynb
 ```
 
 ### Visualisation
 
-Exécutez le script de visualisation pour générer divers graphiques :
+Exécutez le notebook Jupyter pour générer divers graphiques :
 ```sh
-python src/visualize_data.py
-```
+jupyter notebook visualisation.ipynb
+``` 
 
-### Notebooks d'Exemple
 
-Explorez les notebooks Jupyter pour une analyse détaillée et des explications étape par étape :
-```sh
-jupyter notebook notebooks/
-```
 
 ## Visualisations
 
