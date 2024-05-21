@@ -9,6 +9,7 @@ Ce projet vise à analyser un jeu de données relatif à l'obésité et à déve
 ## Jeu de Données
 
 Le jeu de données utilisé dans ce projet est `ObesityDataSet_raw_and_data_sinthetic.csv`, qui contient les colonnes suivantes :
+Lien du dataset : https://www.kaggle.com/datasets/muhramasaputra/obesity-based-on-eating-habits-and-physical-cond
 
 - `Gender` : Genre de l'individu (Female, Male)
 - `Age` : Âge de l'individu
